@@ -27,4 +27,5 @@ def account_authentication(event):
         display("Password must contain at least one letter.", target="output")
 
     else:
-        display("✅ Account successfully created! Your username and password are valid.", target="output")
+
+        display(" Account successfully created! Your username and password are valid.", target="output")
